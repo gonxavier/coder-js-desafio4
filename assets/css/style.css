@@ -62,12 +62,13 @@ div {
 .card {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     padding: 10px;   
     color: white;
     background-color: rgb(10, 20, 30);
-    border: 2px solid rgb(30, 60, 100);
     border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgb(30, 45, 70);
 }
 
 .cotiz-ok {
@@ -87,4 +88,31 @@ div {
 .card-cobertura {
     text-align: center;
     color: white;
+    padding: 0 20px;
+}
+
+.card-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-letra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-letra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: rgb(10, 20, 30);
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    font-weight: 800;
+    border-radius: 5px;
 }
